@@ -1,10 +1,10 @@
-### Create a new patient entity
-POST http://localhost:4000/patients
+### update an existing patient entity
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
 Content-Type: application/json
 
 {
   "name": "john doe",
-  "email": "test@example.com",
+  "email": "test2@example.com",
   "address": "123 main street",
   "dateOfBirth": "2003-05-17",
   "registeredDate": "2003-05-17"
